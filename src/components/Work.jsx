@@ -1,6 +1,6 @@
 import React from 'react';
 import weatherImg from '../assets/Weather_app.png';
-import underConstruct from '../assets/Under-Construction-Sign-400x189.png';
+import underConstruct from '../assets/2489360.jpg';
 
 const Work = () => {
   return (
@@ -157,6 +157,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+          <p><a href='https://www.freepik.com/vectors/construction-sign'>Construction sign vector created by freepik - www.freepik.com</a></p>
         </div>
       </div>
     </div>
