@@ -7,14 +7,11 @@ const Contact = () => {
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
-  const template = process.env.REACT_APP_YOUR_TEMPLATE_ID;
-  const key = process.env.REACT_APP_YOUR_PUBLIC_KEY;
-
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('default_service', template, form.current, key)
+    emailjs.sendForm('default_service', process.env.REACT_APP_YOUR_TEMPLATE_ID, form.current, process.env.REACT_APP_YOUR_PUBLIC_KEY)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
