@@ -11,10 +11,10 @@ const Home = () => {
           Daniel Edington
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-          I'm am programmer.
+          I'm am Web Developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I am hard at work devloping my programming skills. Currently I am focused on
+          I am hard at work devloping my skills. Currently I am focused on
           learning to design responsive web applications.
         </p>
         <div>

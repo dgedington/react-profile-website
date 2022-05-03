@@ -7,7 +7,6 @@ import {
   FaTwitter
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import Logo from '../assets/1c399281b83747a086dc1bfb02226143.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -16,8 +15,9 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
-      <div>
-        <img src={Logo} alt='Logo' style={{ width: '300px' }} />
+      <div className='flex'>
+        <div className='flex felex-col bg-orange-600 rounded-full h-[50px] w-[50px] mx-6 justify-center items-center'><p className='text-2xl text-[#0a192f]'>DE</p></div>
+        <div className='flex items-center text-2xl'><h1>Daniel Edington</h1></div>
       </div>
 
       {/* menu */}
