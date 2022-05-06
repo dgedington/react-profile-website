@@ -7,7 +7,8 @@ import {
   FaTwitter
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -23,27 +24,27 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to='home' smooth={true} duration={500}>
+          <Link to='/'>
             Home
           </Link>
         </li>
         <li>
-          <Link to='about' smooth={true} duration={500}>
+          <Link to='/about'>
             About
           </Link>
         </li>
         <li>
-          <Link to='skills' smooth={true} duration={500}>
+          <Link to='/skills'>
             Skills
           </Link>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
+          <Link to='/work'>
             Work
           </Link>
         </li>
         <li>
-          <Link to='contact' smooth={true} duration={500}>
+          <Link to='/contact'>
             Contact
           </Link>
         </li>
