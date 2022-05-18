@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./pages/Skills";
 import Work from "./pages/Work";
-
+import Missing from "./pages/Missing";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Route exact path="/skills" element={<Skills/>}/>
         <Route exact path="/work" element={<Work/>}/>
         <Route exact path="/contact" element={<Contact/>}/>
+        <Route path="*" element={<Missing/>}/>
       </Routes>
     </div>
   );
